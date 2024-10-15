@@ -2,15 +2,17 @@ const INFO = {
 	main: {
 		title: "Portafolio",
 		name: "Josue Alvarez Rodriguez",
-		email: "josue-chiva99@hotmail.com",
+		email: "arj1931126@gmail.com",
 		logo: "https://github.com/jalvarezturing-ia/portafolio/blob/main/public/yo.jpg",
 	},
 
 	socials: {
 		github: "https://github.com/jalvarezturing-ia",
-		linkedin: "https://www.linkedin.com/in/josué-alvarez-rodriguez-012249264",
+		linkedin:
+			"https://www.linkedin.com/in/josué-alvarez-rodriguez-012249264",
 		instagram: "https://www.instagram.com/alv._.rod?igsh=NDYybGRzdGNna245",
-		facebook: "https://www.facebook.com/josue.alvarezrodriguez.372?mibextid=ZbWKwL",
+		facebook:
+			"https://www.facebook.com/josue.alvarezrodriguez.372?mibextid=ZbWKwL",
 	},
 
 	homepage: {

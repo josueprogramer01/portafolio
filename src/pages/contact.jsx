@@ -48,7 +48,7 @@ const Contact = () => {
 							conmigo. Agradezco sus comentarios, preguntas y
 							sugerencias. Si tiene alguna pregunta o comentario
 							específico, no dude en enviarme un correo
-							electrónico directamente a &nbsp;{" "}
+							electrónico directamente a: {" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
@@ -58,11 +58,11 @@ const Contact = () => {
 							conectarte a través de las redes sociales, puedes
 							encontrarme en{" "}
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								{INFO.socials.linkedin}
 							</a>
 							. Allí publico actualizaciones y me
 							relaciono con mis contactos, así que no dudes en
