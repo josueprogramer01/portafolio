@@ -3,7 +3,7 @@ const INFO = {
 		title: "Portafolio",
 		name: "Josue Alvarez Rodriguez",
 		email: "josue-chiva99@hotmail.com",
-		logo: "../yo.jpg",
+		logo: "https://github.com/jalvarezturing-ia/portafolio/blob/main/public/yo.jpg",
 	},
 
 	socials: {

@@ -8,6 +8,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import imagemINE from "../assets/yo.jpg";
 
 import "./styles/about.css";
 
@@ -54,7 +55,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="yo2.jpg"
+											src={imagemINE}
 											alt="about"
 											className="about-image"
 										/>

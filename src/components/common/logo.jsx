@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import INFO from "../../data/user";
+import image from "../../assets/yo.jpg";
 
 import "./styles/logo.css";
 
@@ -13,7 +14,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={image} alt="logou" className="logo" width={width} />
 	);
 
 	return (
