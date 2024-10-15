@@ -34,8 +34,8 @@ const Notfound = () => {
 							Parece que no podemos encontrar la página que está buscando
 							que busca.
 								<br />
-								La URL solicitada "{window.location.href}" no fue
-								no se encontró en este servidor.
+								La URL solicitada "{window.location.href}" no fue encontrada en el servidor.
+							</div>
 							<a href="/" className="not-found-link">
 							Volver a la página de inicio
 							</a>
