@@ -2,36 +2,36 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Soy un desarrollador backend con experiencia en Node.js. Tengo experiencia en la construcción de aplicaciones web escalables, seguras y fiables utilizando diversos marcos y tecnologías.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			" Soy un desarrollador backend con experiencia en Node.js. Tengo experiencia en la construcción de aplicaciones web escalables, seguras y fiables utilizando diversos marcos y tecnologías.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Recopilación cronológica de mis reflexiones sobre programación, liderazgo, diseño de productos, etc.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"He trabajado en diversos proyectos a lo largo de los años y estoy orgulloso de los progresos realizados. Muchos de estos proyectos son de código abierto y están disponibles para que otros los exploren y contribuyan a ellos.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Si estás interesado en colaborar en un proyecto, no dudes en ponerte en contacto conmigo. Siempre estoy abierto a nuevas ideas y oportunidades.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
 ];
 
