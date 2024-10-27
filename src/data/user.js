@@ -7,7 +7,7 @@ const INFO = {
 	},
 
 	socials: {
-		github: "https://github.com/jalvarezturing-ia",
+		github: "https://github.com/josueprogramer01",
 		linkedin:
 			"https://www.linkedin.com/in/josué-alvarez-rodriguez-012249264",
 		instagram: "https://www.instagram.com/alv._.rod?igsh=NDYybGRzdGNna245",
