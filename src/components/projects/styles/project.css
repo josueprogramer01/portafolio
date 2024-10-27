@@ -24,6 +24,7 @@
 
 .project-container {
 	padding: 30px;
+
 }
 
 .project-logo {
@@ -45,6 +46,7 @@
 
 .project-description {
 	color: var(--secondary-color);
+
 }
 
 .project-link {

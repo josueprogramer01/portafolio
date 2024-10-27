@@ -74,7 +74,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{INFO.main.title}</title>
+				<title>Home | {INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -122,7 +122,7 @@ const Homepage = () => {
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
-								color="red"
+								title="Sígueme en GitHub"
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
@@ -134,6 +134,7 @@ const Homepage = () => {
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
+								title="Sígueme en Linkedin"
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
@@ -144,6 +145,7 @@ const Homepage = () => {
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
+								title="Sígueme en Instagram"
 							>
 								<FontAwesomeIcon
 									icon={faInstagram}
@@ -155,6 +157,7 @@ const Homepage = () => {
 								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
+								title="Sígueme en Facebook"
 							>
 								<FontAwesomeIcon
 									icon={faFacebook}
@@ -166,6 +169,7 @@ const Homepage = () => {
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
+								title="Envíame un correo electrónico"
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}

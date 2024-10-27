@@ -39,25 +39,25 @@ const INFO = {
 			description:
 				"Desarrollé e implementé un portal integral de gestión y comunicación del personal, optimizando la administración de datos y la interacción con los usuarios. Utilicé React y HTML para crear una interfaz de usuario dinámica y amigable, mientras que el backend fue construido con CodeIgniter en PHP, garantizando una integración eficiente y segura de las funcionalidades necesarias para la operación del sistema.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "Ver Proyecto",
+			linkText: "Detalles",
 			link: "https://people.turing-latam.com/public",
 		},
 
 		{
 			title: "ADO Visor PDF",
 			description:
-				"Desarrollé un sistema de gestión de documentos PDF donde los usuarios, según su rol, podían acceder a diferentes archivos. La autenticación se realizó mediante un IdP de CyberArk, asegurando un acceso seguro y controlado. El sistema fue desplegado en Google Cloud Run, aprovechando su escalabilidad y alta disponibilidad.",
+				"Desarrollé un sistema de gestión de documentos PDF que permite a los usuarios acceder a archivos según su rol. La autenticación se gestiona mediante un IdP de CyberArk para garantizar un acceso seguro. El sistema se implementó en Google Cloud Run, aprovechando su escalabilidad y disponibilidad.",
 			logo: "https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png",
 			linkText: "Detalles",
-			link: "#",
+			link: "#sistema_privado",
 		},
 
 		{
 			title: "PROSA Analytics",
 			description:
-				"Lideré la integración de servicios de autenticación como Okta y PingOne para gestionar accesos en sistemas de clientes, mejorando significativamente la seguridad y proporcionando una experiencia de usuario sin interrupciones mediante el uso de Single Sign-On (SSO) con JWT y SAML.",
+				"Lideré la integración del IDP PingOne para gestionar accesos en el sistema del cliente, mejorando significativamente la seguridad y proporcionando una experiencia de usuario sin interrupciones mediante el protocolo OIDC, haciendo uso de un Single Sign-On (SSO) y embebiendo dashboards de Tableau Cloud.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "Ver Proyecto",
+			linkText: "Detalles",
 			link: "https://prosaanalytics-qa.prosa.lat",
 		},
 
@@ -67,12 +67,12 @@ const INFO = {
 				"Desarrollé una aplicación móvil para gestionar los pagos de los clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio para garantizar un funcionamiento eficiente y adaptado a las necesidades del negocio.",
 			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnwom_T1bXi6p6F4t6mQIZeP_QSuSbYsylUQ&s",
 			linkText: "Detalles",
-			link: "#",
+			link: "#sistema_privado",
 		},
 		{
 			title: "Customer Portal",
 			description:
-				"Re - diseñé e implementé el portal interno de la Empresa orientado al cliente utilizando React, Material UI, Bootstrap y hooks. Enfocándome en una estructura de responsabilidades claramente definidas.",
+				"Rediseñé e implementé el portal interno de la Empresa orientado al cliente utilizando React, Material UI, Bootstrap y hooks. Enfocándome en una estructura de responsabilidades claramente definidas.",
 			logo: "https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png",
 			linkText: "Detalles",
 			link: "https://portal.turing-ia.com",
