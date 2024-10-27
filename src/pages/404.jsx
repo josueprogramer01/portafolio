@@ -36,9 +36,11 @@ const Notfound = () => {
 								<br />
 								La URL solicitada "{window.location.href}" no fue encontrada en el servidor.
 							</div>
-							<a href="/" className="not-found-link">
+
+							<a href="/portafolio" className="not-found-link">
 							Volver a la página de inicio
 							</a>
+
 						</div>
 					</div>
 				</div>
