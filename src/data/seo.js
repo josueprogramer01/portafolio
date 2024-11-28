@@ -33,6 +33,12 @@ const SEO = [
 			"Si estás interesado en colaborar en un proyecto, no dudes en ponerte en contacto conmigo. Siempre estoy abierto a nuevas ideas y oportunidades.",
 		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
 	},
+	{
+		page: "cv",
+		description:
+			"Si estás interesado en colaborar en un proyecto, no dudes en ponerte en contacto conmigo. Siempre estoy abierto a nuevas ideas y oportunidades.",
+		keywords: ["Josue", "Josue Alvarez", "Josue Alvarez Rodriguez"],
+	},
 ];
 
 export default SEO;

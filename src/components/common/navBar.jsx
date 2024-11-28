@@ -57,6 +57,15 @@ const NavBar = (props) => {
 							>
 								<Link to="/contact">Contacto</Link>
 							</li>
+							<li
+								className={
+									active === "cv"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link to="/cv">Currículum</Link>
+							</li>
 						</ul>
 					</div>
 				</nav>

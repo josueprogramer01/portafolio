@@ -47,7 +47,7 @@ const INFO = {
 			title: "ADO Visor PDF",
 			description:
 				"Desarrollé un sistema de gestión de documentos PDF que permite a los usuarios acceder a archivos según su rol. La autenticación se gestiona mediante un IdP de CyberArk para garantizar un acceso seguro. El sistema se implementó en Google Cloud Run, aprovechando su escalabilidad y disponibilidad.",
-			logo: "https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png",
+			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Detalles",
 			link: "#sistema_privado",
 		},
@@ -65,7 +65,7 @@ const INFO = {
 			title: "Aplicación WISP",
 			description:
 				"Desarrollé una aplicación móvil para gestionar los pagos de los clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio para garantizar un funcionamiento eficiente y adaptado a las necesidades del negocio.",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnwom_T1bXi6p6F4t6mQIZeP_QSuSbYsylUQ&s",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png",
 			linkText: "Detalles",
 			link: "#sistema_privado",
 		},
@@ -73,7 +73,7 @@ const INFO = {
 			title: "Customer Portal",
 			description:
 				"Rediseñé e implementé el portal interno de la Empresa orientado al cliente utilizando React, Material UI, Bootstrap y hooks. Enfocándome en una estructura de responsabilidades claramente definidas.",
-			logo: "https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png",
+			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Detalles",
 			link: "https://portal.turing-ia.com",
 		},
