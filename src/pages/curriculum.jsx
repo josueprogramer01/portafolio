@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -59,12 +60,26 @@ const Cv = () => {
 							currículum actualizado.
 						</div>
 
+						{/* <div className="download-container" onClick={handleDownloadCV}>
+							<div className="article-link">
+								Descargar Currículum{" "}
+								<FontAwesomeIcon
+									style={{ fontSize: "10px" }}
+									icon={faDownload}
+								/>
+							</div>
+						</div> */}
+
 						<div className="download-container">
 							<button
 								className="download-button"
 								onClick={handleDownloadCV}
 							>
-								Descargar Currículum
+								Descargar CV {" "}
+								<FontAwesomeIcon
+									style={{ fontSize: "10px" }}
+									icon={faDownload}
+								/>
 							</button>
 						</div>
 					</div>
