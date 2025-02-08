@@ -13,6 +13,7 @@ const INFO = {
 		instagram: "https://www.instagram.com/alv._.rod?igsh=NDYybGRzdGNna245",
 		facebook:
 			"https://www.facebook.com/josue.alvarezrodriguez.372?mibextid=ZbWKwL",
+		website: "https://josueprogramer01.github.io/webshop/",
 	},
 
 	homepage: {
@@ -22,7 +23,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "Persona apasionada con su profesión, excelente capacidad de organización y facilidad de trabajo en equipo.",
+		title: "Apasionado por su profesión, organizado y con gran facilidad para el trabajo en equipo.",
 		description:
 			"Muy adaptable a todo tipo de entornos y clara orientación a objetivos. Con conocimientos en diferentes lenguajes de programación como: TypeScript, JavaScript, PHP, entre otros; Interés en el área de desarrollo de software y/o Análisis de sistemas.",
 	},
@@ -69,6 +70,7 @@ const INFO = {
 			linkText: "Detalles",
 			link: "#sistema_privado",
 		},
+		
 		{
 			title: "Customer Portal",
 			description:

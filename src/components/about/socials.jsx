@@ -2,12 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-	faTwitter,
 	faGithub,
 	faLinkedin,
 	faInstagram,
-	faFacebook
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { faShopify } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
 
@@ -16,7 +16,6 @@ import "./styles/socials.css";
 const Socials = () => {
 	return (
 		<div className="socials">
-			
 			<div className="social">
 				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
@@ -57,7 +56,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Sígueme en  Instagram</div>
+					<div className="social-text">Sígueme en Instagram</div>
 				</a>
 			</div>
 			<div className="social">
@@ -72,7 +71,19 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Sígueme en  Facebook</div>
+					<div className="social-text">Sígueme en Facebook</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a href={INFO.socials.website} target="_blank" rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faShopify}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Visita mi WebShop</div>
 				</a>
 			</div>
 
@@ -87,7 +98,7 @@ const Socials = () => {
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
-						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-text" title="Envíame un correo electrónico">{INFO.main.email}</div>
 					</a>
 				</div>
 			</div>

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -40,34 +39,37 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Pongámonos en contacto: Formas de conectar conmigo
+							Pongámonos en contacto: Formas de conectar conmigo.
 						</div>
 
-						<div className="subtitle contact-subtitle" >
-							Gracias por su interés en ponerse en contacto
-							conmigo. Agradezco sus comentarios, preguntas y
-							sugerencias. Si tiene alguna pregunta o comentario
-							específico, no dude en enviarme un correo
-							electrónico directamente a: {" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. Hago un esfuerzo por responder a todos los
-							mensajes en 24 horas, aunque puedo tardar más en
-							periodos de mucho trabajo. Por último, si prefieres
-							conectarte a través de las redes sociales, puedes
-							encontrarme en{" "}
+						<div className="subtitle contact-subtitle">
+							<strong>
+								Gracias por tu interés en contactarme.
+							</strong>{" "}
+							Valoro mucho tus comentarios, preguntas y
+							sugerencias. Si tienes alguna consulta específica,
+							no dudes en enviarme un correo electrónico haciendo
+							clic <a href={`mailto:${INFO.main.email}`}>aquí</a>.
+							Hago todo lo posible por responder a todos los
+							mensajes en un plazo de 24 horas, aunque en periodos
+							de alta demanda podría tardar un poco más.
+							<br />
+							Si prefieres conectarte a través de redes sociales,
+							puedes encontrarme en{" "}
 							<a
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.linkedin}
-							</a>
-							. Allí publico actualizaciones y me
-							relaciono con mis contactos, así que no dudes en
-							ponerte en contacto conmigo. Gracias de nuevo por tu
-							interés! Saludos.👋🏽
+								Linkedin
+							</a>{" "}
+							o en mi lista de redes, donde comparto
+							actualizaciones y me relaciono con mi red de
+							contactos. No dudes en ponerte en contacto conmigo;
+							estaré encantado de conversar.
+							<br />
+							¡Gracias nuevamente por tu interés! Espero poder
+							conectar contigo pronto. 👋🏽😊
 						</div>
 					</div>
 

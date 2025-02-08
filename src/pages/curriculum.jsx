@@ -47,35 +47,32 @@ const Cv = () => {
 
 					<div className="cv-container">
 						<div className="title cv-title">
-							Mi Currículum Profesional
+							Mi Currículum Profesional.
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Hola, soy <strong>Josue Alvarez Rodriguez</strong>,
-							un Ingeniero en Sistemas Computacionales con
-							experiencia en desarrollo de software, integración
-							de tecnologías y liderazgo en proyectos. Si deseas
-							conocer más sobre mi experiencia profesional,
-							habilidades y logros, te invito a descargar mi
-							currículum actualizado.
+							¡Hola! 👋 Soy{" "}
+							<strong>Josue Alvarez Rodriguez</strong>, un
+							Ingeniero en Sistemas Computacionales apasionado por
+							el desarrollo de software, la integración de
+							tecnologías y el liderazgo de proyectos innovadores.
+							Si quieres conocer más sobre mi trayectoria,
+							habilidades y los logros que he alcanzado, ¡te
+							invito a descargar mi currículum actualizado!
+							<br />
+							Estoy siempre abierto a nuevas oportunidades,
+							colaboraciones y desafíos que me permitan seguir
+							creciendo profesionalmente. ¡No dudes en contactarme
+							si quieres conectar o trabajar juntos en algo
+							increíble! 🚀
 						</div>
-
-						{/* <div className="download-container" onClick={handleDownloadCV}>
-							<div className="article-link">
-								Descargar Currículum{" "}
-								<FontAwesomeIcon
-									style={{ fontSize: "10px" }}
-									icon={faDownload}
-								/>
-							</div>
-						</div> */}
 
 						<div className="download-container">
 							<button
 								className="download-button"
 								onClick={handleDownloadCV}
 							>
-								Descargar CV {" "}
+								Descargar CV{" "}
 								<FontAwesomeIcon
 									style={{ fontSize: "10px" }}
 									icon={faDownload}

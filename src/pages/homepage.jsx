@@ -1,29 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faFileCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
 	faLinkedin,
-	faFacebook
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 import imagemINE from "../assets/yo2.jpg";
-
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -117,7 +111,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -127,7 +120,6 @@ const Homepage = () => {
 								<FontAwesomeIcon
 									icon={faGithub}
 									className="homepage-social-icon"
-						
 								/>
 							</a>
 							<a
@@ -152,7 +144,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
+
 							<a
 								href={INFO.socials.facebook}
 								target="_blank"
@@ -164,7 +156,18 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
+							<a
+								href={INFO.socials.website}
+								target="_blank"
+								rel="noreferrer"
+								title="Visita mi WebShop"
+							>
+								<FontAwesomeIcon
+									icon={faFileCode}
+									className="homepage-social-icon"
+								/>
+							</a>
+
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
