@@ -25,7 +25,7 @@ const Footer = () => {
 							<Link to="/contact">Contacto</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/cv">Currículum</Link>
+							<Link to="/cv">CV</Link>
 						</li>
 					</ul>
 				</div>
