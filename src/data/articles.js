@@ -1,11 +1,12 @@
 import React from "react";
 import codeJava from "../assets/codeJava.png";
+import imgRefle from "../assets/imgRefle.jpg";
 import "./styles.css";
 
-function article_5() {
+function article_6() {
 	return {
 		date: "07 enero 2024",
-		title: "Beneficios del Cloud Computing",
+		title: "Reflexión: Beneficios del Cloud Computing",
 		description:
 			"La computación en nube ofrece una serie de ventajas, como el ahorro de costes y una mayor flexibilidad.",
 		keywords: [
@@ -24,7 +25,9 @@ function article_5() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
 				}
 				`,
 		body: (
@@ -82,10 +85,10 @@ function article_5() {
 	};
 }
 
-function article_4() {
+function article_5() {
 	return {
 		date: "07 marzo 2024",
-		title: "La importancia de Google Cloud Run",
+		title: "Reflexión: La importancia de Google Cloud Run",
 		description:
 			"Google Cloud Run es un servicio que permite desplegar y ejecutar aplicaciones contenedorizadas de manera escalable y sin servidor, eliminando la complejidad de gestionar infraestructura.",
 		keywords: [
@@ -104,7 +107,9 @@ function article_4() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
 				}
 				`,
 		body: (
@@ -167,10 +172,10 @@ function article_4() {
 	};
 }
 
-function article_3() {
+function article_4() {
 	return {
 		date: "15 agosto 2024",
-		title: "Introducción a la Programación en Python",
+		title: "Tutorial: Introducción a la Programación en Python",
 		description:
 			"Python es un lenguaje de programación versátil y fácil de aprender, ideal para principiantes y expertos por igual.",
 		keywords: [
@@ -189,7 +194,9 @@ function article_3() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid blue;
+					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
 				}
 				`,
 		body: (
@@ -252,10 +259,10 @@ function article_3() {
 	};
 }
 
-function article_2() {
+function article_3() {
 	return {
 		date: "20 septiembre 2024",
-		title: "Desarrollo de Aplicaciones Web con React",
+		title: "Consejo: Desarrollo de Aplicaciones Web con React",
 		description:
 			"React es una biblioteca de JavaScript que facilita la creación de interfaces de usuario interactivas y dinámicas.",
 		keywords: [
@@ -274,7 +281,9 @@ function article_2() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid green;
+					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
 				}
 				`,
 		body: (
@@ -327,8 +336,6 @@ function article_2() {
 					<img
 						src="https://bigbite.net/wp-content/uploads/2017/11/React.jpg"
 						alt="React"
-						width={610}
-						height={310}
 						className="randImage"
 					/>
 				</div>
@@ -337,7 +344,7 @@ function article_2() {
 	};
 }
 
-function article_1() {
+function article_2() {
 	return {
 		date: "28 enero 2025",
 		title: "Tutorial: Creando una API REST Básica con Node.js y Express",
@@ -360,6 +367,8 @@ function article_1() {
 				.randImage {
 					align-self: center;
 					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
 				}
 				`,
 		body: (
@@ -401,8 +410,6 @@ function article_1() {
 							<img
 								src={codeJava}
 								alt="Code JavaScript"
-								width={610}
-								height={310}
 								className="randImage"
 							/>
 							{/* const express = require("express");{"\n"}
@@ -444,8 +451,6 @@ function article_1() {
 					<img
 						src="https://www.curotec.com/wp-content/uploads/2024/08/Express-1.png?w=1024"
 						alt="Node.js y Express"
-						width={610}
-						height={310}
 						className="randImage"
 					/>
 				</div>
@@ -454,6 +459,113 @@ function article_1() {
 	};
 }
 
-const myArticles = [article_1, article_2, article_3, article_4, article_5];
+function article_1() {
+	return {
+		date: "12 febrero 2025",
+		title: "Reflexión: El Desafío de Crecer en TI en un Mercado Exigente",
+		description:
+			"Exploramos las barreras que enfrentan los profesionales de TI para avanzar en su carrera y cómo pueden superar los requisitos de experiencia excesivos.",
+		keywords: [
+			"TI",
+			"Experiencia laboral",
+			"Infraestructura",
+			"Certificaciones",
+			"Desarrollo profesional",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid var(--link-color) !important;
+					max-width: 100%;
+					height: auto;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						Recientemente vi una vacante para un ingeniero sysadmin
+						junior que pedía 4 años de experiencia en redes, Windows
+						Server, Linux server, bases de datos, desarrollo y
+						certificaciones en Cisco, Microsoft y Linux, entre
+						otras. El salario era "a convenir".
+					</div>
+					<h3>¿Un junior debe tener 4 años de experiencia?</h3>
+					<p>
+						Tras la pandemia, las empresas entendieron que el rol de
+						TI es clave para mantener su infraestructura operativa.
+						Sin embargo, cada vez exigen más habilidades, dejando
+						pocas oportunidades para quienes buscan crecer.
+					</p>
+					<p>
+						Por ejemplo, si alguien viene de soporte N1 o N2 y
+						quiere avanzar, se topará con ofertas que piden mínimo 2
+						años de experiencia. Pero, ¿cómo adquirir experiencia si
+						no hay oportunidades para aprender? Lo mismo ocurre en
+						desarrollo, donde cientos de candidatos compiten por su
+						primer empleo.
+					</p>
+					<h3>Consejos para crecer en TI</h3>
+					<ul>
+						<li>
+							1️⃣ Atrévete a asumir retos técnicos (si tienes un
+							buen guía como tu jefe inmediato, mejor).
+						</li>
+						<li>
+							2️⃣ Trabaja en tu actitud (ser conflictivo solo frena
+							el crecimiento).
+						</li>
+						<li>
+							3️⃣ Certifícate con grandes empresas como Microsoft,
+							Cisco, Linux o AWS.
+						</li>
+						<li>
+							4️⃣ Aprovecha cursos en plataformas como Udemy,
+							LinkedIn Learning y Coursera para especializarte y
+							enfocarte en lo que quieres ser.
+						</li>
+					</ul>
+					<p>
+						Ojalá los reclutadores consideren más el potencial y las
+						habilidades en lugar de enfocarse solo en la
+						experiencia. 🚀💻
+					</p>
+					<br></br>
+					<img
+						src={imgRefle}
+						alt="TI y Desarrollo Profesional"
+						className="randImage"
+					/>
+					<p>
+						<strong>💻 Fuente original de la idea:</strong>{" "}
+						Publicación en LinkedIn de{" "}
+						<a
+							href="https://www.linkedin.com/feed/update/urn:li:activity:7294414401611182080/"
+							target="_blank"
+						>
+							Dairo Rivera Ramírez
+						</a>
+						, Analista de Infraestructura, Ingeniero de Sistemas.
+					</p>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [
+	article_1,
+	article_2,
+	article_3,
+	article_4,
+	article_5,
+	article_6,
+];
 
 export default myArticles;
