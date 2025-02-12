@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import getDate from "../../data/date";
 import "./styles/footer.css";
+
+const date = getDate();
 
 const Footer = () => {
 	return (
@@ -32,7 +34,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Josué. Todos los Derechos son Reservdados.
+						© {date}. Todos los Derechos son Reservados.
 					</div>
 				</div>
 			</div>
