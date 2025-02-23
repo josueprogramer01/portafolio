@@ -9,7 +9,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import MyCv from "../assets/CVJosue.pdf";
+import MyCv from "../assets/CV AARJ010123LM0.pdf";
 
 import "./styles/cv.css";
 
