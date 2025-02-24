@@ -3,8 +3,8 @@
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
+	/* align-items: center; */
+	padding-top: 45px;
 }
 
 .homepage-container {
