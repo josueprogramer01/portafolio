@@ -94,8 +94,6 @@ body.dark-mode .article-right-side:hover {
 	background: var(--primary-color);
 }
 
-/*  */
-
 body.dark-mode .card {
 	outline: 2px solid var(--octonary-color);
 }
@@ -168,5 +166,3 @@ body.dark-mode .read-article-back-button {
 body.dark-mode .nav-hamburger {
 	color: var(--primary-color);
 }
-
-

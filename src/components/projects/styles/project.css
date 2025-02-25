@@ -71,4 +71,7 @@
 	.project {
 		height: 300px;
 	}
+	.project-description {
+		font-size: 10px;
+	}
 }

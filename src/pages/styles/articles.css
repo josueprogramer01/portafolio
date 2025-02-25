@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
+	
 }
 
 .articles-logo {
@@ -24,6 +25,7 @@
 .articles-container {
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .articles-wrapper {
@@ -31,6 +33,7 @@
 	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .articles-article {
@@ -39,6 +42,7 @@
 	padding-bottom: 20px;
 	border-left: 2px solid #f4f4f5;
 	width: 100%;
+	
 }
 
 @media (max-width: 1024px) {
