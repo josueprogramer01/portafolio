@@ -8,7 +8,7 @@ import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import imagemINE from "../assets/yo.jpg";
+import imagemINE from "../assets/yo2.jpg";
 
 import "./styles/about.css";
 
