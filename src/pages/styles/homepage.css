@@ -9,6 +9,7 @@
 
 .homepage-container {
 	padding-top: 25px;
+	height: 50%;
 }
 
 .homepage-first-area {
@@ -49,6 +50,7 @@
 
 .homepage-image-wrapper img {
 	width: 100%;
+	
 }
 
 .homepage-socials {
@@ -100,7 +102,7 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column; 
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
