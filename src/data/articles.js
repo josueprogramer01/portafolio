@@ -3,7 +3,7 @@ import codeJava from "../assets/codeJava.png";
 import imgRefle from "../assets/imgRefle.jpg";
 import "./styles.css";
 
-function article_6() {
+function article_7() {
 	return {
 		date: "07 enero 2024",
 		title: "Reflexión: Beneficios del Cloud Computing",
@@ -85,7 +85,7 @@ function article_6() {
 	};
 }
 
-function article_5() {
+function article_6() {
 	return {
 		date: "07 marzo 2024",
 		title: "Reflexión: La importancia de Google Cloud Run",
@@ -172,7 +172,7 @@ function article_5() {
 	};
 }
 
-function article_4() {
+function article_5() {
 	return {
 		date: "15 agosto 2024",
 		title: "Tutorial: Introducción a la Programación en Python",
@@ -259,7 +259,7 @@ function article_4() {
 	};
 }
 
-function article_3() {
+function article_4() {
 	return {
 		date: "20 septiembre 2024",
 		title: "Consejo: Desarrollo de Aplicaciones Web con React",
@@ -344,7 +344,7 @@ function article_3() {
 	};
 }
 
-function article_2() {
+function article_3() {
 	return {
 		date: "28 enero 2025",
 		title: "Tutorial: Creando una API REST Básica con Node.js y Express",
@@ -459,7 +459,7 @@ function article_2() {
 	};
 }
 
-function article_1() {
+function article_2() {
 	return {
 		date: "12 febrero 2025",
 		title: "Reflexión: El Desafío de Crecer en TI en un Mercado Exigente",
@@ -559,6 +559,195 @@ function article_1() {
 	};
 }
 
+function article_1() {
+	return {
+		date: "25 febrero 2025",
+		title: "Consejo: 30 APIs GRATUITAS para Desarrolladores",
+		description:
+			"Guárdalo ahora. Te aseguro que lo vas a necesitar más adelante.",
+		keywords: [
+			"APIs",
+			"Desarrollo",
+			"Programación",
+			"Software",
+			"Herramientas",
+		],
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid var(--link-color) !important;
+				max-width: 100%;
+				height: auto;
+			}
+			
+			.hashtags {
+				font-weight: bold;
+				color: #1D79D7;
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						Si eres desarrollador, sabes que las APIs son la clave
+						para construir aplicaciones modernas. Ya sea para un
+						proyecto personal, una app en producción o simplemente
+						para experimentar, estas APIs te facilitarán el camino.
+					</div>
+					<p>
+						Aquí tienes 30 APIs gratuitas que te ayudarán a
+						desbloquear nuevas posibilidades:
+					</p>
+
+					<h3>🔹 1. APIs de Datos Abiertos</h3>
+					<ul>
+						<li>
+							✅ OpenStreetMap → Mapas abiertos y datos
+							geoespaciales 🌍
+						</li>
+						<li>
+							✅ NASA API → Datos de exploración espacial,
+							imágenes y más 🚀
+						</li>
+						<li>
+							✅ Open Library API → Acceso a millones de libros 📚
+						</li>
+					</ul>
+
+					<h3>🌦 2. APIs de Clima</h3>
+					<ul>
+						<li>
+							✅ OpenWeather API → Datos meteorológicos globales
+							en tiempo real 🌍
+						</li>
+						<li>
+							✅ Weather API → Información detallada del clima y
+							alertas meteorológicas ⛈️
+						</li>
+						<li>
+							✅ WeatherBit API → Datos meteorológicos para
+							integración en apps 📡
+						</li>
+					</ul>
+
+					<h3>📰 3. APIs de Noticias</h3>
+					<ul>
+						<li>
+							✅ News API → Noticias de múltiples fuentes
+							reconocidas 🗞️
+						</li>
+						<li>
+							✅ GNews API → Noticias globales con filtrado por
+							ubicación 🌎
+						</li>
+						<li>
+							✅ Guardian News API → Noticias actuales de The
+							Guardian ✍️
+						</li>
+						<li>
+							✅ Current News API → Información en tiempo real de
+							múltiples medios 📢
+						</li>
+						<li>
+							✅ New York Times API → Contenido del NYT y su
+							archivo histórico 📖
+						</li>
+					</ul>
+
+					<h3>🤖 4. APIs de Inteligencia Artificial & NLP</h3>
+					<ul>
+						<li>
+							✅ OpenAI API → Acceso a modelos como GPT y DALL·E
+							🧠
+						</li>
+						<li>
+							✅ Gemini API → IA conversacional avanzada de Google
+							💬
+						</li>
+						<li>
+							✅ Hugging Face API → Modelos de machine learning y
+							NLP 📚
+						</li>
+						<li>
+							✅ Claude API → Un asistente de IA con enfoque ético
+							🤝
+						</li>
+						<li>
+							✅ Grok API → IA optimizada para respuestas
+							inteligentes 🔥
+						</li>
+					</ul>
+
+					<h3>⚽🏀 5. APIs de Deportes</h3>
+					<ul>
+						<li>
+							✅ Football Data Org → Datos de fútbol en vivo ⚽
+						</li>
+						<li>
+							✅ NBA API → Estadísticas y partidos de la NBA 🏀
+						</li>
+						<li>
+							✅ ESPN API → Datos de eventos deportivos en tiempo
+							real 📡
+						</li>
+					</ul>
+
+					<h3>🔥 6. APIs Misceláneas (pero geniales)</h3>
+					<ul>
+						<li>
+							✅ TimeZone API → Conversión de husos horarios 🌎
+						</li>
+						<li>
+							✅ Unsplash API → Acceso gratuito a imágenes de alta
+							calidad 📸
+						</li>
+						<li>
+							✅ Dictionary API → Definiciones, sinónimos y más 📖
+						</li>
+					</ul>
+
+					<p>
+						💡 ¿Cuál de estas APIs te interesa más? ¿Conoces otra
+						API gratuita que debería estar en la lista?
+					</p>
+
+					<img
+						src="https://media.licdn.com/dms/image/v2/D4E22AQE-XUY2enz3rA/feedshare-shrink_2048_1536/B4EZU6ossGGYAo-/0/1740445503961?e=1743638400&v=beta&t=SplcTS9nCoEa-wxMXFgvSQ44tSiYR3nXCeLazRhXxzE"
+						alt="apiservice"
+						className="randImage"
+					/>
+
+					<p className="hashtags">
+						#Developers hashtag#SoftwareDevelopment hashtag#APIs
+						hashtag#FreeTools hashtag#Coding hashtag#WebDevelopment
+						hashtag#AI hashtag#BigData hashtag#NewsAPI
+						hashtag#OpenSource hashtag#Tech hashtag#Innovation
+						hashtag#DataScience 🚀
+					</p>
+
+					<p>
+						<strong>💻 Fuente original de la idea:</strong>{" "}
+						Publicación en LinkedIn de{" "}
+						<a
+							href="https://www.linkedin.com/feed/update/urn:li:activity:7300122407896252416/"
+							target="_blank"
+						>
+							Ignacio C
+						</a>
+						. Ayudo a desarrolladores a crecer con IA y software.
+					</p>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
 const myArticles = [
 	article_1,
 	article_2,
@@ -566,6 +755,7 @@ const myArticles = [
 	article_4,
 	article_5,
 	article_6,
+	article_7,
 ];
 
 export default myArticles;
