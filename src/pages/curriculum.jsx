@@ -6,7 +6,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import MyCv from "../assets/CV AARJ010123LM0.pdf";
@@ -38,6 +38,7 @@ const Cv = () => {
 
 			<div className="page-content">
 				<NavBar active="cv" />
+				<DarkMode />
 				<div className="content-wrapper">
 					<div className="cv-logo-container">
 						<div className="cv-logo">

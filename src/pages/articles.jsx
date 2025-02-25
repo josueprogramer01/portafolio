@@ -5,7 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Article from "../components/articles/article";
-
+import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -32,6 +32,7 @@ const Articles = () => {
 
 			<div className="page-content">
 				<NavBar active="articles" />
+				<DarkMode />
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">

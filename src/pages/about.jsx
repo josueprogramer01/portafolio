@@ -5,7 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import imagemINE from "../assets/yo.jpg";
@@ -32,6 +32,7 @@ const About = () => {
 
 			<div className="page-content">
 				<NavBar active="about" />
+				<DarkMode />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

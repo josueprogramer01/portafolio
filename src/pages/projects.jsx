@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
-
+import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -31,6 +30,7 @@ const Projects = () => {
 
 			<div className="page-content">
 				<NavBar active="projects" />
+				<DarkMode />
 				<div className="content-wrapper">
 					<div className="projects-logo-container">
 						<div className="projects-logo">

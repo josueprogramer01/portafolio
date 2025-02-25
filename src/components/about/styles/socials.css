@@ -23,6 +23,11 @@
 	font-size: 14px;
 }
 
+.social-text:hover {
+	color: var(--link-color);
+	text-decoration: underline;
+}
+
 .email::before {
 	content: "";
 	display: block;

@@ -6,7 +6,7 @@ import styled from "styled-components";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-
+import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import myArticles from "../data/articles";
 
@@ -38,7 +38,7 @@ const ReadArticle = () => {
 
 			<div className="page-content">
 				<NavBar />
-
+				<DarkMode />
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
 						<div className="read-article-logo">
