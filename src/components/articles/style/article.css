@@ -70,15 +70,10 @@
 	}
 
 	@media (max-width: 600px) {
-
-		
-		
 		.article {
-			
 			flex-basis: 90%;
 			min-width: 85%;
 			max-width: 85%;
-
 		}
 	}
 }

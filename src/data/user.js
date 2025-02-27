@@ -38,8 +38,8 @@ const INFO = {
 		{
 			title: "People Analytics",
 			description:
-				"Desarrollé e implementé un portal integral de gestión y comunicación del personal, optimizando la administración de datos y la interacción con los usuarios. Utilicé React y HTML para crear una interfaz de usuario dinámica y amigable, mientras que el backend fue construido con CodeIgniter en PHP, garantizando una integración eficiente y segura de las funcionalidades necesarias para la operación del sistema.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Desarrollé e implementé un portal integral de gestión y comunicación del personal, optimizando la administración de datos y la interacción con los usuarios. Utilicé React con Bootstrap 5 para crear una interfaz de usuario dinámica y amigable, mientras que el backend fue construido con CodeIgniter 4, garantizando una integración eficiente y segura de las funcionalidades necesarias para la operación del sistema.",
+			logo: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small_2x/js-icon-transparent-background-free-png.png",
 			linkText: "Detalles",
 			link: "https://people.turing-latam.com/public",
 		},
@@ -56,8 +56,8 @@ const INFO = {
 		{
 			title: "PROSA Analytics",
 			description:
-				"Lideré la integración del IDP PingOne para gestionar accesos en el sistema del cliente, mejorando significativamente la seguridad y proporcionando una experiencia de usuario sin interrupciones mediante el protocolo OIDC, haciendo uso de un Single Sign-On (SSO) y embebiendo dashboards de Tableau Cloud.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Lideré la integración del IDP PingOne para gestionar accesos en el sistema del cliente, mejorando significativamente la seguridad y proporcionando una experiencia de usuario sin interrupciones mediante el protocolo OIDC, haciendo uso de un Single Sign-On (SSO).",
+			logo: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small_2x/js-icon-transparent-background-free-png.png",
 			linkText: "Detalles",
 			link: "https://prosaanalytics-qa.prosa.lat",
 		},
@@ -66,11 +66,11 @@ const INFO = {
 			title: "Aplicación WISP",
 			description:
 				"Desarrollé una aplicación móvil para gestionar los pagos de los clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio para garantizar un funcionamiento eficiente y adaptado a las necesidades del negocio.",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png",
+			logo: "https://images.vexels.com/media/users/3/139556/isolated/preview/1718a076e29822051df8bcf8b5ce1124-logotipo-de-android.png",
 			linkText: "Detalles",
 			link: "#sistema_privado",
 		},
-		
+
 		{
 			title: "Customer Portal",
 			description:
@@ -78,6 +78,14 @@ const INFO = {
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Detalles",
 			link: "https://portal.turing-ia.com",
+		},
+		{
+			title: "Embebed Dashboards Tableau Cloud",
+			description:
+				"Desarrollé un sistema de embebido de dashboards de Tableau Cloud en una aplicación web, permitiendo a los usuarios acceder a la información de forma segura y eficiente.",
+			logo: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png",
+			linkText: "Detalles",
+			link: "#sistema_privado",
 		},
 	],
 };

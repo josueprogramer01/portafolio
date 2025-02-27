@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
+import Tippy from "@tippyjs/react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -12,6 +13,7 @@ import SEO from "../data/seo";
 import MyCv from "../assets/CV AARJ010123LM0.pdf";
 
 import "./styles/cv.css";
+import "tippy.js/dist/tippy.css";
 
 const Cv = () => {
 	useEffect(() => {
@@ -69,16 +71,21 @@ const Cv = () => {
 						</div>
 
 						<div className="download-container">
-							<button
-								className="download-button"
-								onClick={handleDownloadCV}
+							<Tippy
+								content="Descargar Currículum"
+								placement="bottom"
 							>
-								Descargar CV{" "}
-								<FontAwesomeIcon
-									style={{ fontSize: "10px" }}
-									icon={faDownload}
-								/>
-							</button>
+								<button
+									className="download-button"
+									onClick={handleDownloadCV}
+								>
+									{/* Descargar CV{" "} */}
+									<FontAwesomeIcon
+										style={{ fontSize: "20px" }}
+										icon={faDownload}
+									/>
+								</button>
+							</Tippy>
 						</div>
 					</div>
 

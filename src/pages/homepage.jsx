@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { faMailBulk, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faGithub,
@@ -19,6 +19,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 import imagemINE from "../assets/yo2.jpg";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -112,74 +114,96 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-								title="Sígueme en GitHub"
+							<Tippy
+								content="Sígueme en GitHub"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-								title="Sígueme en Linkedin"
+								<a
+									href={INFO.socials.github}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faGithub}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Sígueme en Linkedin"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-								title="Sígueme en Instagram"
+								<a
+									href={INFO.socials.linkedin}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faLinkedin}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Sígueme en Instagram"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={INFO.socials.facebook}
-								target="_blank"
-								rel="noreferrer"
-								title="Sígueme en Facebook"
+								<a
+									href={INFO.socials.instagram}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faInstagram}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Sígueme en Facebook"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faFacebook}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.website}
-								target="_blank"
-								rel="noreferrer"
-								title="Visita mi WebShop"
+								<a
+									href={INFO.socials.facebook}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faFacebook}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Visita mi WebShop"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faFileCode}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-								title="Envíame un correo electrónico"
+								<a
+									href={INFO.socials.website}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faCartShopping}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Envíame un correo electrónico"
+								placement="bottom"
 							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
+								<a
+									href={`mailto:${INFO.main.email}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faMailBulk}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
 						</div>
 
 						<div className="homepage-projects">

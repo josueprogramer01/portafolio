@@ -3,7 +3,7 @@
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;
-	/* align-items: center; */
+	align-items: center;
 	padding-top: 45px;
 }
 
