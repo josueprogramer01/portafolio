@@ -31,11 +31,13 @@
 
 .about-title {
 	width: 100% !important;
+	/* text-align: justify; */
 
 }
 
 .about-subtitle {
 	width: 80% !important;
+	text-align: justify;
 }
 
 .about-left-side {

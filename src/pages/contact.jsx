@@ -40,7 +40,7 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Pongámonos en contacto: Formas de conectar conmigo.
+							Pongámonos en contacto: ¡Hagamos realidad las ideas! 📞
 						</div>
 
 						<div className="subtitle contact-subtitle">

@@ -50,10 +50,10 @@ const Cv = () => {
 
 					<div className="cv-container">
 						<div className="title cv-title">
-							Mi Currículum Profesional.
+							Mi Camino en el Desarrollo 📂
 						</div>
 
-						<div className="subtitle contact-subtitle">
+						<div className="subtitle cv-subtitle">
 							¡Hola! 👋 Soy{" "}
 							<strong>Josue Alvarez Rodriguez</strong>, un
 							Ingeniero en Sistemas Computacionales apasionado por

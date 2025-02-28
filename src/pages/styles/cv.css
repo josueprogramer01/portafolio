@@ -15,6 +15,7 @@
 
 .cv-subtitle {
 	width: 100% !important;
+    text-align: justify;
 }
 
 .cv-container {

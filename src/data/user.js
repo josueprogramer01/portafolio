@@ -18,19 +18,19 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Desarrollador de aplicaciones web, móviles, y amante de los videojuegos 🎮.",
+		title: "Desarrollador Full Stack: Web y Móvil 👨🏻‍💻",
 		description:
 			"Soy un desarrollador full-stack con experiencia en la construcción de aplicaciones web escalables, seguras y fiables utilizando diversos marcos y tecnologías. Disfruto resolver problemas complejos y aprendiendo nuevas habilidades. Me apasiona crear código de alta calidad que siga las mejores prácticas y estándares de la industria. Siempre estoy buscando nuevos retos y oportunidades para crecer como desarrollador.",
 	},
 
 	about: {
-		title: "Apasionado por su profesión, organizado y con gran facilidad para el trabajo en equipo.",
+		title: "Orden y colaboración son mi superpoder 🤝🏻",
 		description:
 			"Muy adaptable a todo tipo de entornos y clara orientación a objetivos. Con conocimientos en diferentes lenguajes de programación como: TypeScript, JavaScript, PHP, entre otros; Interés en el área de desarrollo de software y/o Análisis de sistemas.",
 	},
 
 	articles: {
-		title: "Me apasiona ampliar los límites de lo posible e inspirar a la próxima generación de innovadores.",
+		title: "Innovador incansable y mentor de los creadores del mañana 🌟",
 		description:
 			"Recopilación cronológica de algunas de mis reflexiones sobre programación, liderazgo, diseño de productos, etc.",
 	},

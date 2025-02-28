@@ -13,8 +13,10 @@
 	top: 4vh;
 }
 
-.contact-subtitle {
+
+.contact-subtitle, .contact-title {
 	width: 100% !important;
+	text-align: justify;
 }
 
 .contact-subtitle a {
