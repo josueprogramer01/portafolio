@@ -1,3 +1,4 @@
+const formData = "https://forms.gle/nmWUgnKt13pXuVPo9";
 const INFO = {
 	main: {
 		title: "Portafolio",
@@ -38,54 +39,54 @@ const INFO = {
 		{
 			title: "People Analytics",
 			description:
-				"Desarrollé e implementé un portal integral de gestión y comunicación del personal, optimizando la administración de datos y la interacción con los usuarios. Utilicé React con Bootstrap 5 para crear una interfaz de usuario dinámica y amigable, mientras que el backend fue construido con CodeIgniter 4, garantizando una integración eficiente y segura de las funcionalidades necesarias para la operación del sistema.",
+				"Desarrollé e implementé un portal integral para la gestión y comunicación del personal, mejorando la eficiencia en la administración de datos y la interacción entre usuarios. La plataforma permitió optimizar flujos de trabajo y centralizar la información clave del equipo. Utilicé tecnologías como React y CodeIgniter 4 para asegurar una experiencia fluida y segura.",
 			logo: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small_2x/js-icon-transparent-background-free-png.png",
 			linkText: "Detalles",
-			link: "https://people.turing-latam.com/public",
+			link: formData,
 		},
 
 		{
 			title: "ADO Visor PDF",
 			description:
-				"Desarrollé un sistema de gestión de documentos PDF que permite a los usuarios acceder a archivos según su rol. La autenticación se gestiona mediante un IdP de CyberArk para garantizar un acceso seguro. El sistema se implementó en Google Cloud Run, aprovechando su escalabilidad y disponibilidad.",
+				"Desarrollé un sistema de gestión de documentos PDF que optimiza el acceso y la seguridad de la información. Los usuarios pueden visualizar archivos según su rol, asegurando un control de permisos eficiente. La autenticación se gestiona con CyberArk como IdP para reforzar la seguridad, y la infraestructura en Google Cloud Run permite escalabilidad y alta disponibilidad.",
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Detalles",
-			link: "#sistema_privado",
+			link: formData,
 		},
 
 		{
 			title: "PROSA Analytics",
 			description:
-				"Lideré la integración del IDP PingOne para gestionar accesos en el sistema del cliente, mejorando significativamente la seguridad y proporcionando una experiencia de usuario sin interrupciones mediante el protocolo OIDC, haciendo uso de un Single Sign-On (SSO).",
+				"Lideré la integración del IdP PingOne en el sistema del cliente, mejorando la seguridad y optimizando la experiencia del usuario con un inicio de sesión único (SSO) mediante el protocolo OIDC.",
 			logo: "https://static.vecteezy.com/system/resources/thumbnails/048/332/149/small_2x/js-icon-transparent-background-free-png.png",
 			linkText: "Detalles",
-			link: "https://prosaanalytics-qa.prosa.lat",
+			link: formData,
 		},
 
 		{
 			title: "Aplicación WISP",
 			description:
-				"Desarrollé una aplicación móvil para gestionar los pagos de los clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio para garantizar un funcionamiento eficiente y adaptado a las necesidades del negocio.",
+				"Desarrollé una aplicación móvil para gestionar pagos de clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio, asegurando un flujo de pagos eficiente y adaptado a las necesidades del negocio.",
 			logo: "https://images.vexels.com/media/users/3/139556/isolated/preview/1718a076e29822051df8bcf8b5ce1124-logotipo-de-android.png",
 			linkText: "Detalles",
-			link: "#sistema_privado",
+			link: formData,
 		},
 
 		{
 			title: "Customer Portal",
 			description:
-				"Rediseñé e implementé el portal interno de la Empresa orientado al cliente utilizando React, Material UI, Bootstrap y hooks. Enfocándome en una estructura de responsabilidades claramente definidas.",
+				"Rediseñé e implementé el portal interno de la empresa con un enfoque en la experiencia del cliente, utilizando React, Material UI y Bootstrap. Priorizando una estructura modular con responsabilidades bien definidas para mejorar el mantenimiento y escalabilidad.",
 			logo: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 			linkText: "Detalles",
-			link: "https://portal.turing-ia.com",
+			link: formData,
 		},
 		{
 			title: "Embebed Dashboards Tableau Cloud",
 			description:
-				"Desarrollé un sistema de embebido de dashboards de Tableau Cloud en una aplicación web, permitiendo a los usuarios acceder a la información de forma segura y eficiente.",
+				" Implementé la integración de dashboards de Tableau Cloud en una aplicación web, facilitando el acceso a información clave de manera segura y eficiente para los usuarios.",
 			logo: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png",
 			linkText: "Detalles",
-			link: "#sistema_privado",
+			link: formData,
 		},
 	],
 };
