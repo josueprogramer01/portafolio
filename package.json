@@ -1,12 +1,12 @@
 {
 	"name": "reactfolio",
 	"version": "1.1.0",
-	"homepage": "https://josueprogramer01/portafolio",
+	"homepage": "https://josuedevx.github.io/portafolio",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "josueprogramer01",
+		"name": "josuedevx",
 		"email": "arj1931126@gmail.com",
-		"url": "https://josueprogramer01/portafolio"
+		"url": "https://josuedevx.github.io/portafolio"
 	},
 	"license": "MIT",
 	"private": true,
