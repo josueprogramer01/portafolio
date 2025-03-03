@@ -8,13 +8,13 @@ const INFO = {
 	},
 
 	socials: {
-		github: "https://github.com/josueprogramer01",
+		github: "https://github.com/josuedevx",
 		linkedin:
 			"https://www.linkedin.com/in/josué-alvarez-rodriguez-012249264",
 		instagram: "https://www.instagram.com/alv._.rod?igsh=NDYybGRzdGNna245",
 		facebook:
 			"https://www.facebook.com/josue.alvarezrodriguez.372?mibextid=ZbWKwL",
-		website: "https://josueprogramer01.github.io/webshop/",
+		website: "https://josuedevx.github.io/webshop/",
 	},
 
 	homepage: {

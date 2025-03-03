@@ -18,7 +18,7 @@ import DarkMode from "../components/dark/dark";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-import imagemINE from "../assets/yo2.jpg";
+import imagemINE from "../assets/yo3.jpg";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "./styles/homepage.css";

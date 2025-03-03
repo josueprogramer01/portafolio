@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import INFO from "../../data/user";
-import image from "../../assets/yo2.jpg";
+import image from "../../assets/yo3.jpg";
 
 import "./styles/logo.css";
 
