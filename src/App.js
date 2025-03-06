@@ -10,7 +10,6 @@ import Contact from "./pages/contact";
 import Curriculum from "./pages/curriculum";
 import Notfound from "./pages/404";
 import DarkMode from "./components/dark/dark";
-
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 

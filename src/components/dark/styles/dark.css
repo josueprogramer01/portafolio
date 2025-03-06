@@ -171,3 +171,11 @@ body.dark-mode .read-article-back-button {
 body.dark-mode .nav-hamburger {
 	color: var(--primary-color);
 }
+
+body.dark-mode .notfound-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .not-found-message {
+	color: var(--tertiary-color);
+}

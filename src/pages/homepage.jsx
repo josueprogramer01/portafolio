@@ -8,6 +8,7 @@ import {
 	faLinkedin,
 	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -15,6 +16,7 @@ import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import DarkMode from "../components/dark/dark";
+import Languaje from "../components/common/languaje";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -80,6 +82,7 @@ const Homepage = () => {
 			</Helmet>
 			<div className="page-content">
 				<NavBar active="home" />
+				{/* <Languaje /> */}
 				<DarkMode />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
